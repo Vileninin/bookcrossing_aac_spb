@@ -20,7 +20,7 @@
       <a href="#rules">Правила</a>
       <a href="#about">О проекте</a>
     </nav>
-    <a class="nav-cta" href="#how">Выбрать книгу <span aria-hidden="true">↗</span></a>
+    <a class="nav-cta" href="#how">Выбрать книгу <span class="ui-arrow arrow-up-right" aria-hidden="true"></span></a>
   </header>
 
   <main id="main">
@@ -29,7 +29,7 @@
         <p class="eyebrow"><span></span> Открытая книжная полка в Петербурге</p>
         <h1>Книга нашла<br>свой <em>круг.</em></h1>
         <p class="hero-text">Принеси книгу, возьми почитать или просто загляни. Здесь истории переходят из рук в руки и собирают людей вместе.</p>
-        <a class="button button-light" href="#how">Как присоединиться <span aria-hidden="true">↓</span></a>
+        <a class="button button-light" href="#how">Как присоединиться <span class="ui-arrow arrow-down" aria-hidden="true"></span></a>
         <p class="armenian-note" lang="hy">Գիրքը կիսվելու համար է <span>·</span> Книгой делятся</p>
       </div>
       <div class="hero-art" aria-label="Иллюстрация открытых книг" role="img">
@@ -64,10 +64,10 @@
             <circle cx="64" cy="165" r="5" fill="#d5494b" stroke="#642832" stroke-width="2"/><circle cx="156" cy="165" r="5" fill="#d5494b" stroke="#642832" stroke-width="2"/>
           </svg>
         </div>
-        <span class="art-star star-one">✳</span><span class="art-star star-two">✦</span>
+        <span class="art-star star-one" aria-hidden="true"></span><span class="art-star star-two" aria-hidden="true"></span>
         <span class="art-caption">Կարդա · Կիսվիր · Կրկին</span>
       </div>
-      <div class="hero-seal" aria-hidden="true"><span>БЕРИ</span><b>↘</b><span>ЧИТАЙ</span><b>↘</b><span>ПЕРЕДАЙ</span></div>
+      <div class="hero-seal" aria-hidden="true"><span>БЕРИ</span><b class="ui-arrow arrow-down-right"></b><span>ЧИТАЙ</span><b class="ui-arrow arrow-down-right"></b><span>ПЕРЕДАЙ</span></div>
     </section>
 
     <section class="intro section-wrap" id="about">
@@ -76,7 +76,7 @@
         <h2>Небольшая полка.<br><em>Большой круг</em> читателей.</h2>
         <p>«Книжный круг» — открытая полка буккроссинга в Санкт-Петербурге. Сюда можно принести книгу, чтобы её прочитал кто-то ещё, или выбрать историю для себя. Рядом — уютное место, где можно устроиться на пуфике и полистать страницы.</p>
       </div>
-      <div class="intro-stamp" aria-hidden="true"><span>ԳԻՐՔ</span><small>КНИГА</small><i>✳</i></div>
+      <div class="intro-stamp" aria-hidden="true"><span>ԳԻՐՔ</span><small>КНИГА</small><i class="stamp-ornament"></i></div>
     </section>
 
     <section class="steps" id="how">
@@ -85,7 +85,7 @@
         <div class="step-grid">
           <article class="step-card"><span class="step-number">01</span><div class="step-icon" aria-hidden="true">＋</div><h3>Принеси</h3><p>Подари полке книгу в хорошем состоянии. Оставь её на стеллаже.</p><span class="step-line"></span></article>
           <article class="step-card"><span class="step-number">02</span><div class="step-icon open-book" aria-hidden="true">⌑</div><h3>Возьми</h3><p>Выбери то, что заинтересовало. Регистрация и записи не нужны.</p><span class="step-line"></span></article>
-          <article class="step-card"><span class="step-number">03</span><div class="step-icon" aria-hidden="true">↗</div><h3>Передай</h3><p>Прочитай и верни на полку или передай книгу тому, кому она понравится.</p><span class="step-line"></span></article>
+          <article class="step-card"><span class="step-number">03</span><div class="step-icon" aria-hidden="true"><span class="ui-arrow arrow-up-right"></span></div><h3>Передай</h3><p>Прочитай и верни на полку или передай книгу тому, кому она понравится.</p><span class="step-line"></span></article>
         </div>
       </div>
     </section>
@@ -119,17 +119,19 @@
     </section>
 
     <section class="closing" id="join">
-      <div class="closing-pattern" aria-hidden="true">✳　✦　✳</div>
+      <div class="closing-pattern" aria-hidden="true"><i></i><i></i><i></i></div>
       <p class="eyebrow">Добро пожаловать</p><h2>Загляни.<br>Возможно, твоя<br><em>следующая книга</em><br>уже здесь.</h2>
-      <button class="button button-light share-button" id="shareProject" type="button">Поделиться проектом <span aria-hidden="true">↗</span></button><p class="share-status" id="shareStatus" aria-live="polite"></p>
+      <button class="button button-light share-button" id="shareProject" type="button">Поделиться проектом <span class="ui-arrow arrow-up-right" aria-hidden="true"></span></button><p class="share-status" id="shareStatus" aria-live="polite"></p>
       <p class="closing-note">Книжный круг · Գրքի շրջան · Санкт-Петербург</p>
     </section>
   </main>
 
-  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">Գ</span><span class="brand-title"><span class="brand-names"><strong>Книжный круг</strong><span lang="hy">Գրքի շրջան</span></span><small>Книгой делятся</small></span></a><p>Открытая полка буккроссинга<br>Санкт-Петербург</p><a class="back-top" href="#home">Наверх ↑</a></footer>
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">Գ</span><span class="brand-title"><span class="brand-names"><strong>Книжный круг</strong><span lang="hy">Գրքի շրջան</span></span><small>Книгой делятся</small></span></a><p>Открытая полка буккроссинга<br>Санкт-Петербург</p><a class="back-top" href="#home">Наверх <span class="ui-arrow arrow-up" aria-hidden="true"></span></a></footer>
   <script src="script.js"></script>
 </body>
 </html>
+
+
 
 
 
